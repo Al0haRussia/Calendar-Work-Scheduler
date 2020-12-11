@@ -8,14 +8,44 @@
 
     <title>Work Day Calendar</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
 
-    <script src="moment.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> 
 
 </head>
 
     <body>
+        
+        <!--Header that includes a welcome tag, desc, current day, and reset button-->
+        <header class="jumbotron">
+
+            <h1 class="display-4 text-center">Work Day Calendar</h1>
+
+            <p class="lead text-center">A simple calendar to organize your day</p>
+
+            <p id="currentDay" class="lead text-center"></p>
+
+            <div class ="col text-center">
+                <button type="button" class="btn btn-dark" id="resetday">Reset Day</button>
+            </div>
+            
+            <hr class="line", style="width:100%", size="10">   
+        </header>
+
+        <!--Div container to include all the js-->
+        <div class="container">
+
+        </div>
     
+    <!--Links to js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+       
     </body>
+
+    
 
 </html>
