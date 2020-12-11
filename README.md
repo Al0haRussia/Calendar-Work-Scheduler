@@ -16,7 +16,7 @@
 
 ![Work Day Calendar](https://user-images.githubusercontent.com/70537665/101870859-4c0b9680-3b37-11eb-89a8-81b0bb2f423f.gif)
 
-<p>Below is a gif of the reset button clearing the text i nthe text boxes</p>
+<p>Below is a gif of the reset button clearing the text in the text boxes</p>
 
 ![Work Day Calendar (1)](https://user-images.githubusercontent.com/70537665/101871692-d99bb600-3b38-11eb-8889-7de906780618.gif)
 
