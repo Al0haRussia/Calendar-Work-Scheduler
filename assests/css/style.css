@@ -1,0 +1,67 @@
+/*Body includes backgroudn img and code related to making it fit correctly*/
+body {
+    background-image: url("../images/1566071.jpg");
+    
+    background-attachment:fixed;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Headers' background color set to make the text easier to read*/
+.jumbotron {
+    background-color: white;
+}
+
+/*Line that divides the header and main calendar*/
+.line {
+    color: black;
+    background-color: black;
+    opacity: 1;
+}
+
+/*Row edits for spacing and coloring*/
+.row {
+    margin: 20px;
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+}
+
+/*Font size and weight changed and also centering text*/
+#time {
+    margin-top: 30px;
+    background-color: white;
+    width: 24.333333%;
+    font-weight: bold;
+    font-size: large;
+}
+
+/*Centering of input text box*/
+.col-6 {
+    margin-right: 10px;
+}
+
+
+
+/*Used to make the website mobile friendly*/
+@media only screen and (min-width: 767px) {
+   .col-6 {
+        margin-right: 5px;
+   } 
+}
+
+@media only screen and (min-width: 576px) {
+    .col-6 {
+        margin-right: -1px;
+   }
+}
+
+@media only screen and (min-width: 400px) {
+    .col-6 {
+         margin-right: 2px;
+    } 
+ }
